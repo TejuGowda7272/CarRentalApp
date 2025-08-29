@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home - Car Rental Management System";
+}
+
+@* <!-- Hero Section with Background --> *@
+<div class="container-fluid p-0 position-relative text-center text-white"
+     style="background-image: url('/images/NatureWithCar.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            width: 100%;">
+    
+    <!-- Overlay -->
+    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5);"></div>
+    
+    <!-- Content -->
+    <div class="position-relative">
+        <h1 class="display-4 mb-3">🏎 Car Rental Management System</h1>
+        <p class="lead mb-4">Manage Cars, Customers, Rentals, and Payments with ease.</p>
+        <a class="btn btn-primary btn-lg" asp-controller="Car" asp-action="Index">Browse Cars</a>
+    </div>
+</div>
+
+
+
+<div class="container-fluid p-5 position-relative"
+     style="background-image: url('/images/NatureWithCar.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            width: 100%;">
+
+    <!-- Overlay -->
+    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5);"></div>
+
+    <div class="position-relative text-center text-white">
+        <h3 class="mb-4">Featured Cars</h3>
+        <div class="row g-4">
+            <div class="col-12 col-md-4 text-center">
+                <img src="~/images/ToyotaCorallaRed.webp" alt="Car 1" class="img-fluid rounded shadow-sm">
+                <p class="mt-2">Toyota Corolla</p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <img src="~/images/AudiBlack.webp" alt="Car 2" class="img-fluid rounded shadow-sm">
+                <p class="mt-2">Audi A6</p>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <img src="~/images/mustangGtBlue.jpg" alt="Car 3" class="img-fluid rounded shadow-sm">
+                <p class="mt-2">Ford Mustang</p>
+            </div>
+        </div>
+    </div>
+</div>
